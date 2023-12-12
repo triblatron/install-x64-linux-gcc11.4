@@ -1,0 +1,12 @@
+prefix=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4
+exec_prefix=${prefix}
+libdir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/lib
+includedir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/include
+
+Name: absl_log_sink
+Description: Abseil log_sink library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_config = 20230802, absl_log_entry = 20230802
+Libs: -L${libdir}  -labsl_log_sink 
+Cflags: -I${includedir} -DNOMINMAX

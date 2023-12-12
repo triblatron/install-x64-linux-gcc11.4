@@ -1,0 +1,13 @@
+prefix=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4
+exec_prefix=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4
+libdir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/lib
+sharedlibdir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/lib
+includedir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

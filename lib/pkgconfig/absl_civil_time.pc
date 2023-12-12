@@ -1,0 +1,12 @@
+prefix=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4
+exec_prefix=${prefix}
+libdir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/lib
+includedir=/home/tony/tartings/cuhc++/install-x64-linux-gcc11.4/include
+
+Name: absl_civil_time
+Description: Abseil civil_time library
+URL: https://abseil.io/
+Version: 20230802
+Requires:
+Libs: -L${libdir}  -labsl_civil_time 
+Cflags: -I${includedir} -DNOMINMAX
